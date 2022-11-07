@@ -1,7 +1,6 @@
 import { createContext, ReactNode } from "react";
 import * as AuthSession from 'expo-auth-session';
 
-
 interface UserProps {
     name: string;
     avatarUrl: string;
